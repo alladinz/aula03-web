@@ -4,10 +4,32 @@ body{
     margin: 0;
     background-image: linear-gradient(45deg, blue, aqua);
 }
-
 h1{
     color: aliceblue;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
+}
+.conteudo{
+    color: aliceblue; /*cor da div*/ 
+    margin-left: 20px;
+    width: 300px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+.lyrics{
+    padding: 15px;
+    margin-top: 10px;
+    color: aliceblue;
+    margin-left: 20px;
+    width: 400px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(42, 214, 120, 0.2);
+    border-radius: 10px;
+    text-align: justify;
 }
